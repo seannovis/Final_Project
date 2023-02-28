@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="style.css" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
 <head>
     <title>My Personal Website</title>
-    <h1>Welcome to my website!</h1>
 </head>
 
 <nav class="Links">
-    <button><a href="#About">About Sean<a></button>
+    <button><a href="#About">About Me<a></button>
     <button><a href="#Work">Work Experience</a></button>
     <button><a href="#Projects">Projects</a></button>
     <button><a href="#Schedule">Schedule</a></button>
     <button><a href="#Contact">Contact Me</a></button>
-    <!--flexbox, top right-->
 </nav>
 
+<div id="heading">
+    <h1>Welcome to my website!</h1>
+</div>
+
 <div id="About">
-    <img width=200 height=200 src="https://media.licdn.com/dms/image/C4D03AQEAsjYQ3-B1iw/profile-displayphoto-shrink_800_800/0/1626661916084?e=1683158400&v=beta&t=R_dFgvGBFFXp4AyvoaVGtJBg2v4Z8oYzCUfnZLzhqGs" alt="Me" title="Sean Novis at Year 12 formal">
-    <!--float left-->
-    <h2>My name is Sean Novis, a 25-year-old bloke from Sydney seeking to move into the exciting field of software engineering</h2>
-    <h3>I have a Bachelor of Laws, Bachelor of Business degree with distinction from UTS, and will continue studying with Academy Xi's Software Engineering course</h3>
-    <p>Although my background is primarily in law and business, I have always loved problem solving, mathematics, and logic (I'm not sure how I ended up with a law degree)! My interests include sport, sport and more sport, whilst I have more recently discovered a passion for learning traditional Jewish texts including works on law, ethics, and character development.</p>
-<!--clearfix-->
-</body>
+    <img width=200px src="https://media.licdn.com/dms/image/C4D03AQEAsjYQ3-B1iw/profile-displayphoto-shrink_800_800/0/1626661916084?e=1683158400&v=beta&t=R_dFgvGBFFXp4AyvoaVGtJBg2v4Z8oYzCUfnZLzhqGs" alt="Me" title="Sean Novis at Year 12 formal">
+    <h2>A little bit about me...</h2>
+    <h3>My name is Sean Novis, a 25-year-old bloke from Sydney seeking to move into the exciting field of software engineering</h2>
+    <h4>I have a Bachelor of Laws, Bachelor of Business degree with distinction from UTS, and will continue studying with Academy Xi's Software Engineering course</h3>
+    <p id="clearfix">Although my background is primarily in law and business, I have always loved problem solving, mathematics, and logic (I'm not sure how I ended up with a law degree)! My interests include sport, sport and more sport, whilst I have more recently discovered a passion for learning traditional Jewish texts including works on law, ethics, and character development.</p>
+</div>
 
 <div id="Work">
-    <ul>
+    <h1>All the places I've worked</h1>
+    <ul id="clearfix">
+        <img src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/289888611_521941043063058_4639039532492205507_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YRhCA1r0VsoAX9XmfR8&tn=QnfhDytx0h3ran_h&_nc_ht=scontent-syd2-1.xx&oh=00_AfCxVwNm11pe2yfcBg7R7u9Jwb7HTBABSbf5gPw_h-kV_w&oe=64032373" alt="Genex" title="Genex Logo">
         <li><strong>Genex Power </strong>(September 2022 - March 2023)</li>
             <ul>
                 <li>Role: Project Assistant</li>
@@ -40,7 +44,8 @@
                 </li>
             </ul>
     </ul>
-    <ul>
+    <ul id="clearfix">
+        <img src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/302334602_501781231950536_2283925825133081268_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=O7NjT9POJNIAX__Ii6O&_nc_ht=scontent-syd2-1.xx&oh=00_AfCNmfyZwwA2e8ZA6A7LbznIrrzU4yLampx6kybRNO4vMg&oe=64028A21" alt="On Tap" title="On Tap Bartending logo">
         <li><strong>On Tap Bartending </strong>(March 2018 - November 2022)</li>
             <ul>
                 <li>Role: Co-founder</li>
@@ -54,7 +59,8 @@
                 </li>
             </ul>
     </ul>
-    <ul>
+    <ul id="clearfix">
+        <img src="https://media.licdn.com/dms/image/C560BAQHXqooSc89kQA/company-logo_200_200/0/1624599454583?e=1685577600&v=beta&t=GBR6xHQ2yrDQ2OJAHwTyRFOcallHHBOBmuXyzFeWa_Y" alt="Rimon" title="Rimon logo">
         <li><strong>Rimon Advisory </strong>(August 2021 - September 2022)</li>
             <ul>
                 <li>Role: Business Analyst</li>
@@ -66,7 +72,8 @@
                     </ul>
             </ul>
     </ul>
-    <ul> 
+    <ul id="clearfix"> 
+        <img src="https://blog.ipleaders.in/wp-content/uploads/2021/02/lawyer-keywords.jpg" alt="lawyer" title="Lawyer photo">
         <li><strong>Rank Legal Group </strong>(July 2019 - November 2021)</li>
             <ul>
                 <li>Role: Paralegal</li>
@@ -79,7 +86,8 @@
                     </ul>
             </ul>
     </ul>
-    <ul>
+    <ul id="clearfix">
+        <img src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/327273038_876860666888203_1192518971027569268_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zmYKgnO5UVUAX_D3sz0&_nc_ht=scontent-syd2-1.xx&oh=00_AfD7_2DXtw5HWH18wdfbAm9DLjtpyJHcx9E3VfV-eEDRfg&oe=640304F0" alt="UTS" title="UTS logo">
         <li><strong>University of Technology Sydney </strong>(March 2018 - November 2018)</li>
             <ul>
                 <li>Role: U:PASS Leader</li>
@@ -93,62 +101,49 @@
     </ul>
 </div>
 
-<div id="Projects"> <!--clearfix-->
-    <div>
-        <h4>Kittens</h4>
-        <p>Putting kittens inside a wheelbarrow</p>
-        <a href="https://github.com/seannovis/phase-0-css-kitten-lab" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
-        <br>
-        <br>
-    </div>
-    <div>
-        <h4>Zetsy</h4>
-        <p>Creating a website for Zetsy</p>
-        <a href="https://github.com/seannovis/fe-zetsy" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
-        <br>
-        <br>
-    </div>
-    <div>
-        <h4>Rainbow</h4>
-        <p>Making a rainbow using div</p>
-        <a href="https://github.com/seannovis/phase-0-css-rainbow-lab" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
-        <br>
-        <br>
-    </div>
-    <div>
-        <h4>Issue Bot 9000</h4>
-        <p>Systematically removing issues from HTML code</p>
-        <a href="https://github.com/seannovis/phase-0-css-issue-bot-9000" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
-        <br>
-        <br>
-    </div>
-    <div>
-        <h4>Riyadh Blog</h4>
-        <p>Writing a blog about a trip to Riyadh</p>
-        <a href="https://github.com/seannovis/phase-0-html-riyadh-blog-lab" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
-        <br>
-        <br>
-    </div>
-    <div>
-        <h4>Grafitti</h4>
-        <p>Removing grafitti from a wall</p>
-        <a href="https://github.com/seannovis/phase-0-css-graffiti-lab" target="_blank">
-            <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
-        </a>
+<div id="cleafix">
+    <h1>The projects I've done so far</h1> 
+    <div id="Projects">
+        <div id="Kittens">
+            <h4>Kittens</h4>
+            <p>Putting kittens inside a wheelbarrow</p>
+            <a href="https://github.com/seannovis/phase-0-css-kitten-lab" target="_blank">
+                <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
+            </a>
+        </div>
+        <div id="Zetsy">
+            <h4>Zetsy</h4>
+            <p>Creating a website for jewellery company Zetsy</p>
+            <a href="https://github.com/seannovis/fe-zetsy" target="_blank">
+                <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
+            </a>
+        </div>
+        <div id="Rainbow">
+            <h4>Rainbow</h4>
+            <p>Making a rainbow by only using the 'div' function</p>
+            <a href="https://github.com/seannovis/phase-0-css-rainbow-lab" target="_blank">
+                <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
+            </a>
+        </div>
+        <div id="Issue">
+            <h4>Issue Bot 9000</h4>
+            <p>Systematically removing issues from HTML code</p>
+            <a href="https://github.com/seannovis/phase-0-css-issue-bot-9000" target="_blank">
+                <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
+            </a>
+        </div>
+        <div id="Riyadh">
+            <h4>Riyadh Blog</h4>
+            <p>Writing a blog about a trip to Riyadh</p>
+            <a href="https://github.com/seannovis/phase-0-html-riyadh-blog-lab" target="_blank">
+                <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf311/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=LYI4wEES" alt="Github" title="Github link" width="50px" height="40px">
+            </a>
+        </div>
     </div>
 </div>
 
 <table id="Schedule">
+    <h1>An idea of my weekly schedule</h1>
     <tr>
         <th></th>
         <th>Morning</th>
@@ -157,49 +152,50 @@
     </tr>
     <tr>
         <th>Monday</th>
-        <td>NBA</td>
+        <td>Watch NBA</td>
         <td>Coding</td>
         <td>Learning</td>
     </tr>
     <tr>
         <th>Tuesday</th>
         <td>Gym</td>
-        <td>Class</td>
+        <td>Academy Xi Class</td>
         <td>Learning</td>
     </tr>
     <tr>
         <th>Wednesday</th>
         <td>Gym</td>
-        <td>Class</td>
+        <td>Academy Xi Class</td>
         <td>Relax</td>
     </tr>
     <tr>
         <th>Thursday</th>
-        <td>Relax</td>
-        <td>Class</td>
+        <td>Coding</td>
+        <td>Academy Xi Class</td>
         <td>Run</td>
     </tr>
     <tr>
         <th>Friday</th>
         <td>Gym</td>
-        <td>Class</td>
+        <td>Academy Xi Class</td>
         <td>Shabbat</td>
     </tr>
     <tr>
         <th>Saturday</th>
         <td>Synagogue</td>
         <td>Shabbat Lunch</td>
-        <td>EPL</td>
+        <td>Watch EPL</td>
     </tr>
     <tr>
         <th>Sunday</th>
         <td>Breakfast</td>
         <td>Relax</td>
-        <td>Relax</td>
+        <td>Coding</td>
     </tr>
 </table>
 
 <form id="Contact" action="index.html" method="POST">
+    <h1>Get in contact!</h1>
     <div>
         <label for="full-name">Full name</label>
         <input type="text" name="full-name" placeholder="Full Name">
@@ -216,8 +212,7 @@
         <button type="submit">Submit</button>
     </div>
     <div>
-        <a href="https://www.linkedin.com/in/seannovis/" target="_blank">Find out more!</a>
-        <!--blue when not pressed, purple when pressed-->
+        <p>If you like what you see, feel free to <a href="https://www.linkedin.com/in/seannovis/" target="_blank">find out more!</a></p>
     </div>
 </form>
 
