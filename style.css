@@ -45,7 +45,7 @@ h1 {
 
 #Work img {
     float: right;
-    margin: 20px 20px;
+    margin: 10px 20px;
     height: 150px;
     width: 150px;
 }
@@ -107,7 +107,6 @@ td {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   #Projects {
@@ -138,4 +137,57 @@ td {
     box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
+  }
+
+  #Submit {
+    width: 100px;
+    height: 50px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+  }
+
+  #Linkedin {
+    margin-left: 211px;
+  }
+
+  input[name="message"] {
+    width: 400px;
+    height: 100px;
+    margin: 10px 10px;
+    padding-bottom: 65px;
+  }
+
+  input[name="name"] {
+    width: 400px;
+    height: 30px;
+    margin: 10px 0px 10px 24px;
+  }
+
+  input[name="email"] {
+    width: 400px;
+    height: 30px;
+    margin: 10px 0px 10px 30px;
+  }
+
+  #ContactHeading {
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 514px) {
+    input[name="name"],
+    input[name="email"],
+    input[name="message"] {
+        width: 100%;
+    }
+
+    input[name="message"],
+    input[name="email"] {
+        margin-left: 23px;
+    }
+
+    #Linkedin,
+    #Submit {
+        margin-left: 45%;
+        text-align: center;
+    }
   }

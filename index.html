@@ -5,14 +5,15 @@
 
 <head>
     <title>My Personal Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
 <nav class="Links">
     <button><a href="#About">About Me<a></button>
     <button><a href="#Work">Work Experience</a></button>
-    <button><a href="#Projects">Projects</a></button>
+    <button><a href="#ProjectHeading">Projects</a></button>
     <button><a href="#Schedule">Schedule</a></button>
-    <button><a href="#Contact">Contact Me</a></button>
+    <button><a href="#ContactHeading">Contact Me</a></button>
 </nav>
 
 <div id="heading">
@@ -24,7 +25,7 @@
     <h2>A little bit about me...</h2>
     <h3>My name is Sean Novis, a 25-year-old bloke from Sydney seeking to move into the exciting field of software engineering</h2>
     <h4>I have a Bachelor of Laws, Bachelor of Business degree with distinction from UTS, and will continue studying with Academy Xi's Software Engineering course</h3>
-    <p id="clearfix">Although my background is primarily in law and business, I have always loved problem solving, mathematics, and logic (I'm not sure how I ended up with a law degree)! My interests include sport, sport and more sport, whilst I have more recently discovered a passion for learning traditional Jewish texts including works on law, ethics, and character development.</p>
+    <p id="clearfix">Although my background is primarily in law and business, I have always loved problem solving, mathematics, and logic (how did I end up with a law degree?) My interests include sport, sport and more sport, whilst I have more recently discovered a passion for learning traditional Jewish texts including works on law, ethics, and character development.</p>
 </div>
 
 <div id="Work">
@@ -69,6 +70,7 @@
                         <li>Managing clients through the R&D Tax Incentive process</li>
                         <li>Consulting with clients to learn about their R&D activities</li>
                         <li>Compiling reports about R&D activities</li>
+                        <li>Creating tax schedules</li>
                     </ul>
             </ul>
     </ul>
@@ -95,14 +97,15 @@
                     <ul>
                         <li>Leading weekly classes in Business Statistics for students</li>
                         <li>Preparing content for classes</li>
+                        <li>Attending lectures</li>
                         <li>Leading one-off final end of semester classes to answer students' questions before exams</li>
                     </ul>
             </ul>
     </ul>
 </div>
 
-<div id="cleafix">
-    <h1>The projects I've done so far</h1> 
+<div id="clearfix">
+    <div id="ProjectHeading"><h1>The projects I've done so far</h1></div>
     <div id="Projects">
         <div id="Kittens">
             <h4>Kittens</h4>
@@ -195,24 +198,24 @@
 </table>
 
 <form id="Contact" action="index.html" method="POST">
-    <h1>Get in contact!</h1>
+    <h1 id="ContactHeading">Get in contact!</h1>
     <div>
-        <label for="full-name">Full name</label>
-        <input type="text" name="full-name" placeholder="Full Name">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Full Name">
     </div>
     <div>
-        <label for="email-address">Email</label>
-        <input type="text" name="email-address" placeholder="Email"> 
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Email"> 
     </div>
     <div>
-        <label for="message">Type your message here</label>
+        <label for="message">Message</label>
         <input type="text" name="message" placeholder="Type your message here">
     </div>
     <div>
-        <button type="submit">Submit</button>
+        <button id="Submit" type="submit">Submit</button>
     </div>
     <div>
-        <p>If you like what you see, feel free to <a href="https://www.linkedin.com/in/seannovis/" target="_blank">find out more!</a></p>
+        <a id="Linkedin" href="https://www.linkedin.com/in/seannovis/" target="_blank">Find out more!</a>
     </div>
 </form>
 
